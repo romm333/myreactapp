@@ -1,0 +1,33 @@
+$todoItembuttonColor: #008040;
+$margin15: 15px;
+
+.todoitem {
+  list-style-type: none;
+  padding: 17px 0px;
+  border-bottom: 1px solid #eaeaea;
+  display: block;
+  line-height: 50px;
+}
+
+.todoitem > img {
+  vertical-align: middle;
+  margin-right: $margin15;
+}
+
+.todoitem--input {
+  margin-right: $margin15;
+  vertical-align: middle;
+}
+.todoitem--button-wrapper {
+  float: right;
+}
+.todoitem--button-wrapper > button {
+  background: $todoItembuttonColor;
+  color: #fff;
+  border: 1px solid $todoItembuttonColor;
+  padding: 3px 7px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 2px;
+  margin: 2px;
+}

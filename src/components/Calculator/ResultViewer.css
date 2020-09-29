@@ -1,0 +1,9 @@
+.result-viewer {
+  text-align: right;
+  font-weight: 200;
+  width: 100%;
+  background-color: #0303ff;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.2rem 0.7rem 0.1rem 0.5rem;
+}
